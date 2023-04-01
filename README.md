@@ -15,7 +15,7 @@
 
 # Secret değişkenler oluşturduysan çalıştırmayı unutma!
 
-- kubectl create secret generic jwt-secret --from-literal=JWT_KEY=AYRSACU......q1
+- kubectl create secret generic jwt-secret --from-literal=JWT_KEY=..........
 - kubectl get secrets
 
 # Credantial sorunu olursa tekrar giriş yapmayı dene
