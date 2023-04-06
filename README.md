@@ -23,3 +23,7 @@
 gcloud auth application-default login
 
 # Tüm podsları siler
+
+# kubectl içeriğini görmek için
+
+- kubectl exec -it auth-depl-5bc56547bc-frr2k sh

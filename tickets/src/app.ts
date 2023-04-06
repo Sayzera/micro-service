@@ -1,7 +1,7 @@
 import express from "express"
 import "express-async-errors"
 import cookieSession from "cookie-session"
-import { errorHandler, NotFoundError } from "@szrtickets/common"
+import { currentUser, errorHandler, NotFoundError } from "@szrtickets/common"
 import { readdirSync } from "fs"
 
 const app = express()
@@ -13,6 +13,9 @@ app.use(
     secure: process.env.NODE_ENV !== "test", // sadece https üzerinden çalışır
   })
 )
+
+// Kullanıcı izni gerekli
+app.use(currentUser)
 
 // routes
 readdirSync("./src/routes").map((r) => {
