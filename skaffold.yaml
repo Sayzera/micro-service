@@ -6,9 +6,6 @@ manifests:
 build:
   local:
     push: false
-  # googleCloudBuild:
-  #   projectId: ticketing-381812
-  # us.gcr.io/ticketing-381812/
   artifacts:
     - image: sayzera1/auth
       context: auth
