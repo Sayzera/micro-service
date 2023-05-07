@@ -41,3 +41,4 @@ gcloud auth application-default login
   > kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
   > minikube start --driver=hyperv
   - Eğer hyperv olmadığı için hata alırsa bu sekilde yapabilirsiniz Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Tools-All -All
+# micro-service
