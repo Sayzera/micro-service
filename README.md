@@ -42,3 +42,4 @@ gcloud auth application-default login
   > minikube start --driver=hyperv
   - Eğer hyperv olmadığı için hata alırsa bu sekilde yapabilirsiniz Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Tools-All -All
 # micro-service
+# micro-service
